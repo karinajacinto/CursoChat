@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.name {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.name img {
+    width: 200px;
+    border-radius: 50%;
+}
+.image-profile {
+    display: block;
+    margin: 20px auto;
+    width: 150px;
+    border-radius: 50%;
+}
+h1, h2 {
+    color: #333;
+    text-align: center;
+}
+ul.skills {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+ul.skills li {
+    display: inline-block;
+    background-color: #007BFF;
+    color: #fff;
+    padding: 8px 16px;
+    margin: 4px;
+    border-radius: 20px;
+}
